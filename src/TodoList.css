@@ -1,0 +1,90 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffe6f2; 
+    color: #5a3e4b; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: center;
+  }
+
+  /* Input and Button Styles */
+  input, select, button {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #000000; 
+    border-radius: 8px;
+    margin: 5px;
+   
+  }
+  input:focus, select:focus, button:focus{
+    outline: 2px solid #000;
+  }
+  input {
+    width: 60%;
+  }
+  
+  button {
+    background-color: #36121a; 
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+
+  }
+  button:hover {
+    background-color: #000000;
+  }
+  button:focus {
+    background-color: #000000;
+    outline: 2px solid #000;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fff5f8; 
+    border-radius: 10px;
+   
+  }
+  
+  th, td {
+    border: 2px solid #ffb6c1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background: #ffccdd; 
+    color: #5a3e4b;
+    font-weight: bold;
+  }
+  
+  td input[type="checkbox"] {
+    transform: scale(1.2);
+ 
+  
+  }
+  td input[type="checkbox"]:focus {
+    outline: 2px solid #000;
+  }
+
+  @media (max-width: 600px) {
+    input {
+      width: 100%;
+    }
+    table {
+      font-size: 14px;
+    }
+  }
+  
